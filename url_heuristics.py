@@ -83,7 +83,7 @@ def check_suspicious_chars(url):
 
 from difflib import SequenceMatcher
 
-KNOWN_BRANDS = ["google", "amazon", "paypal", "apple", "microsoft" "netflix" "facebook", "instagram"]
+KNOWN_BRANDS = ["google", "amazon", "paypal", "apple", "microsoft", "netflix", "facebook", "instagram"]
 
 def check_brand_mimicry(url, brands=KNOWN_BRANDS, threshold=0.75):
     ext = tldextract.extract(url)
