@@ -1,4 +1,5 @@
 # Phishing / Malicious URL Detector
+https://malicious-url-detector-46ugt3ej7k9qhhwfmlwnb8.streamlit.app/
 
 A web app that checks whether a URL looks **Safe, Suspicious or Phishing** and explains why.
 It combines rule-based heuristics with a Random Forest classifier trained on public phishing data.
