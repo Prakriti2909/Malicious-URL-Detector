@@ -1,0 +1,7 @@
+streamlit>=1.50
+scikit-learn==1.9.1
+pandas>=2.2
+joblib>=1.4
+tldextract>=5.1
+python-whois>=0.9
+requests>=2.31

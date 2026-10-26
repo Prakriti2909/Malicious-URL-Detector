@@ -1,0 +1,82 @@
+{
+  "selected_model": "Random Forest",
+  "dataset_size": 20000,
+  "train_size": 16000,
+  "test_size": 4000,
+  "results": {
+    "Random Forest": {
+      "accuracy": 0.96625,
+      "precision": 0.9804224626481195,
+      "recall": 0.9515,
+      "f1": 0.9657447348388734,
+      "confusion_matrix": [
+        [
+          1962,
+          38
+        ],
+        [
+          97,
+          1903
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.846,
+      "precision": 0.8336547733847638,
+      "recall": 0.8645,
+      "f1": 0.8487972508591065,
+      "confusion_matrix": [
+        [
+          1655,
+          345
+        ],
+        [
+          271,
+          1729
+        ]
+      ]
+    }
+  },
+  "top_features": [
+    [
+      "url_length",
+      0.17029962650402136
+    ],
+    [
+      "path_length",
+      0.14949198151768506
+    ],
+    [
+      "num_hyphens",
+      0.13032420247962634
+    ],
+    [
+      "hostname_length",
+      0.10336616782985011
+    ],
+    [
+      "letter_ratio",
+      0.06009061596850764
+    ],
+    [
+      "num_slashes",
+      0.04951899058082519
+    ],
+    [
+      "num_sensitive_keywords",
+      0.04562650757562684
+    ],
+    [
+      "num_digits",
+      0.04041108075331322
+    ],
+    [
+      "num_percent",
+      0.0322471445880957
+    ],
+    [
+      "query_length",
+      0.03000338093231498
+    ]
+  ]
+}
